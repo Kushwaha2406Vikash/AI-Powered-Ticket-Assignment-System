@@ -78,7 +78,7 @@ export default function Tickets() {
           value={form.title}
           onChange={handleChange}
           placeholder="Ticket Title"
-          className="w-full px-4 py-2 rounded-md bg-transparent text-black border border-[#1f6feb] placeholder-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-full px-4 py-2 rounded-md bg-transparent text-black border border-[#1f6feb] placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
           required
         />
         <textarea
@@ -87,7 +87,7 @@ export default function Tickets() {
           onChange={handleChange}
           placeholder="Ticket Description"
           rows={4}
-          className="w-full px-4 py-2 rounded-md bg-transparent text-black border border-blue-500 placeholder-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-full px-4 py-2 rounded-md bg-transparent text-black border border-blue-500 placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
           required
         ></textarea>
         <button
