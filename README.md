@@ -94,11 +94,11 @@ A smart ticket management system that leverages AI to:
     # JWT
     JWT_SECRET=your_jwt_secret
 
-    # Email (Mailtrap)
-    MAILTRAP_SMTP_HOST=your_mailtrap_host
-    MAILTRAP_SMTP_PORT=your_mailtrap_port
-    MAILTRAP_SMTP_USER=your_mailtrap_user
-    MAILTRAP_SMTP_PASS=your_mailtrap_password
+    # Email 
+    EMAIL_SMTP_HOST=your_smtp_host
+    EMAIL_SMTP_PORT=your_smtp_port
+    EMAIL_USER=your_email_address
+    EMAIL_PASS=your_email_password
 
     # AI (Gemini)
     GEMINI_API_KEY=your_gemini_api_key
@@ -198,7 +198,7 @@ curl -X POST http://localhost:3000/api/tickets \
 
   - **Email Issues**
 
-      - Verify Mailtrap credentials.
+      - Verify Email credentials.
       - Check SMTP settings.
       - Monitor delivery logs.
 
